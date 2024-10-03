@@ -26,7 +26,7 @@ CREATE TABLE Orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_id VARCHAR(50),
     branch_id VARCHAR(50),
-    order_date DATE
+    order_date VARCHAR(50)
 );
 
 CREATE TABLE Menu_items (
