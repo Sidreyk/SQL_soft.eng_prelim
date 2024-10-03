@@ -18,7 +18,7 @@ CREATE TABLE Employees (
 CREATE TABLE Branches (
     branch_id INT AUTO_INCREMENT PRIMARY KEY,
     branch_name VARCHAR(50),
-  	branch_address,
+  	branch_address VARCHAR (50),
     branch_city VARCHAR(50)
 );
 
